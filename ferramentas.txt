@@ -1,0 +1,5 @@
+Insomnia = postman
+
+
+Documentação offline:
+https://devdocs.egoist.moe 

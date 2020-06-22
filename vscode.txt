@@ -1,0 +1,38 @@
+Instalar plugins:
+Rocketseat ReactJS
+Rocketseat React Native
+Dracula Official
+Material Icon Theme
+Color Highlight
+
+Fonte: Fira Code: https://github.com/tonsky/FiraCode
+Download V2
+Baixar instalar a fonte e add no arquivo settings json do vscode:
+"editor.fontFamily" : "Fira Code",
+"editor.fontLigatures": true,
+
+----
+command + shift + P
+Buscar por "settings json"
+Seleicionar o não default
+
+Add isso ao arquivo:
+
+"editor.fontFamily" : "Fira Code",
+"editor.fontLigatures": true,
+"editor.rulers" : [80,120],
+"editor.renderLineHighlight" : "gutter",
+"javascript.updateImportsOnFileMove.enabled": "never",
+"editor.parameterHints.enabled": false,
+
+"breadcrumbs.enabled": true,
+"javascript.suggest.autoImports": false,
+
+
+"emmet.syntaxProfiles": {
+    "javascript": "jsx",
+},
+
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+},

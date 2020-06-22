@@ -1,0 +1,5 @@
+Instalar de chrome web store:
+React Developer Tools
+Dracula Theme for DevTools
+Ou nas configuracoes do developer tools,
+escolher o dark

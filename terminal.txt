@@ -1,0 +1,53 @@
+Instalar o tema dracula:
+Acessar: https://draculatheme.com
+e seguir as instruções para instalar o terminal.app
+
+Acessar o terminal > preferencias, Adicionar o tema baixado e definir como padrão.
+Alterar a fonte para Fira Code
+
+Instalar o oh my zsh: https://ohmyz.sh
+Instalar o spaceship: https://github.com/denysdovhan/spaceship-prompt
+Nesse link seguir os passos para Instalação oh-my-zsh
+
+no arquivo: ~/.zshrc
+substituir o tema por:
+ZSH_THEME="spaceship"
+
+e add após a linha com "source $ZSH/oh-my-zsh.sh":
+
+
+SPACESHIP_PROMPT_ORDER=(
+    user
+    dir
+    host
+    git
+    exec_time
+    line_sep
+    vi_mode
+    jobs
+    exit_code
+    char
+)
+
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_CHAR_SYMBOL="❯"
+SPACESHIP_CHAR_SUFFIX=""
+
+
+Instalar o zplugin: https://github.com/zdharma/zplugin
+Option 1 - Automatic Installation (Recommended)
+
+add no final do arquivo: ~/.zshrc:
+
+zplugin light zsh-users/zsh-autosuggestions
+zplugin light zsh-users/zsh-completions
+zplugin light zdharma/fast-syntax-highlighting
+
+
+Add no final do arquivo para pear os dados do bash_profile: ~/.zshrc:
+
+if [ -f ~/.bash_profile ]; then 
+    . ~/.bash_profile;
+fi
+
+Finalizar e iniciar o terminal.
